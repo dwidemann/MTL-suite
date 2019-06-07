@@ -19,7 +19,7 @@ import numpy as np
 import sklearn
 from sklearn import metrics
 # from lifelines.utils import concordance_index
-from UTILS.censoring import inverse_probability_of_censoring_weights
+
 from sklearn.metrics import average_precision_score, roc_curve, auc, confusion_matrix
 from sklearn.metrics import accuracy_score, recall_score, precision_score
 
